@@ -1,7 +1,8 @@
-package com.example.mvvm
+package com.example.mvvm.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.example.mvvm.data.db.Entities.ShoppingItem
 
 @Dao
 interface ShoppingDao {
