@@ -12,7 +12,6 @@ class ShoppingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shopping)
 
-
         val database = ShoppingDB(this)
         val repo = ShoppingRepo(database)
         val factory = ShoppingVMFactory(repo)
