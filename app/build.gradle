@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.mvvm"
-        minSdkVersion 21
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -68,6 +68,7 @@ dependencies {
     // ViewModel
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    //noinspection LifecycleAnnotationProcessorWithJava8
     kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
     // Kodein
